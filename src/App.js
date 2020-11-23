@@ -1,10 +1,10 @@
 import './App.css';
-import Sidebar from './Sidebar';
-import Chat from './Chat'
+import Sidebar from './Sidebar/Sidebar';
+import Chat from './Chat/Chat'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import { useState } from 'react';
-import Login from './Login'
-import {useStateValue} from './StateProvider'
+import Login from './Login/Login'
+import {useStateValue} from './Reducers/StateProvider'
 
 
 function App() {

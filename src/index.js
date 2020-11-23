@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import reducer, {initialState} from './Reducer'
-import {StateProvider} from './StateProvider'
+import reducer, {initialState} from './Reducers/Reducer'
+import {StateProvider} from './Reducers/StateProvider'
 
 
 ReactDOM.render(

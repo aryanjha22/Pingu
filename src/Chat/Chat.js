@@ -5,8 +5,8 @@ import './Chat.css'
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon'
 import MicIcon from '@material-ui/icons/Mic'
 import {useParams} from 'react-router-dom'
-import db from './firebase'
-import {useStateValue} from './StateProvider'
+import db from '../firebase'
+import {useStateValue} from '../Reducers/StateProvider'
 import firebase from 'firebase'
 
 
